@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  font-family: 'Caladea', serif;
+  box-sizing: border-box;
+}
+
+.menuu {
+  background-color: #d3d3d3;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: fixed;
+  z-index: 1;
+}
+
+.menuu a {
+  padding: 15px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: #808080;
+  font-size: 20px;
+}
+
+.menuu a:hover {
+  background-color: #ddd;
+}
+
+.menuu a.active {
+  background-color: #808080;
+  color: #d3d3d3;
+}
+
+.containerr {
+  position: relative;
+  width: 100%;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/2474794.jpg');
+  background-attachment:fixed;
+}
+
+.titlee {
+  text-align: center;
+  font-size: 50px;
+  color: #696969;
+}
+
+.recipee {
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 150px;
+  left: 100px;
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.recipee a {
+  padding: 5px 5px 5px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #808080;
+}
+
+.recipee a:hover {
+  background-color: #ddd;
+}
+
+.imagee {
+  position: relative;
+  top: 10px;
+  left: 150px;
+  width: 80%
+}
+
+.stepp {
+  position: relative;
+  top: 50px;
+  width: 86%;
+  font-size: 30px;
+  background-color: #d3d3d3;
+  color: #696969;
+}
+
+.contentt {
+  position: relative;
+  top: 50px;
+  width: 86%;
+  font-size: 16px;
+  color: #696969;
+  line-height: 24px;
+}
+
+.tmdd {
+  margin-left: 5px;
+}
+
+.flexx {
+  display: flex;
+  flex-direction: column;
+}
+
+.alignn {
+  position: relative;
+  left: 300px;
+  width: 75%;
+}
